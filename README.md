@@ -18,7 +18,7 @@ Features:
 - Nano SIM Connector
 - Integrated Power Control System
 - Support AT Command
-- Supports PHONE, SMS, MMS, EMAIL, TCP/IP, DTMF, HTTP, FTP, BLUETOOTH & etc...
+- Supports PHONE, SMS, MMS, EMAIL, TCP/IP, DTMF, HTTP, FTP, BLUETOOTH 3.0 & etc...
 - Quad-band: 850/EGSM 900/DCS 1800/PCS 1900 MHz
 - Support GPRS data traffic, the maximum data rate, download 85.6Kbps, upload 42.8Kbps
 - Arduino / ESP32 / ESP8266 Compatible
@@ -31,10 +31,18 @@ PINOUT Information:
 |![Static Badge](https://img.shields.io/badge/VIN-FF0000)|Input Range 5-20V (Recommended Supply 12V 1A)|
 |![Static Badge](https://img.shields.io/badge/GND-000000)|Common ground|
 |![Static Badge](https://img.shields.io/badge/RIN-FF8000)|Ring Indicator (Digital Output - NO)|
-|![Static Badge](https://img.shields.io/badge/DTR-FF8000)|Data Terminal Ready (Sleep Mode)|
+|![Static Badge](https://img.shields.io/badge/DTR-FF8000)|Data Terminal Ready (Sleep Mode Control High: Sleep; Low: Wake-up)|
 |![Static Badge](https://img.shields.io/badge/RX-FF8000)|Transmit Data to MCU|
 |![Static Badge](https://img.shields.io/badge/TX-FF8000)|Receive Data from MCU|
-|![Static Badge](https://img.shields.io/badge/KEY-FF0000)|KEY PIN need HIGH at least 2.5 second& released to power ON the module OR 1 second to power OFF the module.|
+|![Static Badge](https://img.shields.io/badge/KEY-FF0000)|KEY PIN need HIGH at least 2.5 seconds & released to power ON the module OR 1 second to power OFF the module.|
+
+LED Indicators:
+
+|LED|Indicate|
+|-|-|
+|![Static Badge](https://img.shields.io/badge/PWR-FF0000)|Power Supply ON (Main INPUT Volatage 5-20VDC)|
+|![Static Badge](https://img.shields.io/badge/STS-000FFF)|Module is Powered ON From Key Pin|
+|![Static Badge](https://img.shields.io/badge/NET-00CE22)|64ms ON / 800ms OFF - Not Registered on the Network<br> 64ms ON / 3000ms OFF - Registered to the Network<br> 64ms ON / 300ms OFF - During Data Transmission<br>OFF - Shutdown or PSM Sleep Mode|
 
 ## Information
 Quantum LABS Q-SIM800C Industrial GSM Module  
