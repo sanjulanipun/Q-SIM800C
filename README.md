@@ -1,4 +1,7 @@
 # Q-SIM800C Industrial GSM Module
+
+<a href="https://www.tindie.com/stores/quantumlabslk/?ref=offsite_badges&utm_source=sellers_sanjula&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
+
 ## Introduction
 <img src="https://github.com/sanjulanipun/Q-SIM800C/blob/main/images/Q-SIM800C%20Front.PNG" width="300"> <img src="https://github.com/sanjulanipun/Q-SIM800C/blob/main/images/Q-SIM800C%20Back.PNG" width="293">
 
